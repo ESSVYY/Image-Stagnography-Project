@@ -1,0 +1,15 @@
+dataset:
+  densities: [0, 5, 10, 25, 50, 75, 90]
+  image_size_limit: 4096
+  split_seed: 42
+  target_size: 512
+training:
+  batch_size: 32
+  epochs: 20
+  learning_rate: 0.001
+  patience: 5
+  validation_split: 0.2
+  seed: 42
+export:
+  artifact_dir: ml/models
+  dataset_dir: ml/data/processed

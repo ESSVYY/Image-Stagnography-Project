@@ -1,0 +1,1 @@
+"""PixelVault FastAPI backend."""
